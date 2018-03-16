@@ -1,4 +1,9 @@
 
+#the-body {
+  background-color: black;
+  margin-top: 0;
+}
+
 #left-column {
   display: flex;
   flex-direction: column;
@@ -11,15 +16,16 @@
   display: flex;
   flex-direction: row;
   background-color: #cccccc;
-  width: 1000px;
+  width: 1040px;
   margin: auto;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
   border-bottom: 3px solid black;
   padding-top: 15px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   margin-top: 55px;
+  /* margin-left: 10px */
 
 }
 
@@ -27,7 +33,7 @@
   font-size: 75px;
   background-color: #cccccc;
   color: black;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
   width: auto;
   margin: auto;
   margin-left: 0px;
@@ -37,15 +43,16 @@
   padding-left: 35px;
   padding-right: 35px;
   margin-top: 10px;
+  margin-bottom: 0;
 
 
 }
 
 #job-title {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 14px;
-  margin-top: 58px;
-  margin-bottom: 0px;
+  font-size: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 
 }
 
@@ -58,16 +65,19 @@
 }
 
 #about-me {
-  font-size: 50px;
+  font-size: 33px;
   /* width: 550px; */
-  margin-top: 0px;
+  margin-top: 10px;
   margin-bottom: 20px;
+  margin-left: 18px;
+  line-height: 1.4;
+  font-family: 'Raleway', sans-serif;
 }
 
 #contact-me {
   display: flex;
   flex-direction: column;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 #contact-item {
@@ -77,15 +87,25 @@
   /* height: px;
   width: 150px; */
   /* height: 20px; */
-  margin-bottom: 15px;
-  margin-left: 35px;
+  /* margin-bottom: 15px; */
+  /* margin-left: 35px; */
 
+}
+
+#aref {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  color: black;
 }
 
 #contact-title {
   margin: 0;
   margin-left: 40px;
   font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  width: 250px;
 }
 
 #contact-logo {
@@ -212,9 +232,9 @@ body {
  -webkit-transform:translateX(100%);
  transform:translateX(100%);
  /* Apply animation to this element */
- -moz-animation: example1 12s linear infinite;
- -webkit-animation: example1 12s linear infinite;
- animation: example1 12s linear infinite;
+ -moz-animation: example1 15s linear infinite;
+ -webkit-animation: example1 15s linear infinite;
+ animation: example1 15s linear infinite;
 }
 /* Move it (define the animation) */
 @-moz-keyframes example1 {
@@ -251,14 +271,15 @@ a{
 }
 .label {
     /* padding: 1px 3px 2px; */
-    font-size: 24px;
+    font-size: 17px;
     font-family: 'Josefin Sans', sans-serif;
     color: black;
     margin-top: 70px;
     /* font-weight: bold; */
     /* -webkit-border-radius: 3px; */
     /* -moz-border-radius: 3px; */
-    text-decoration: none;
+    /* text-decoration: none; */
+    margin-right: 5px;
 }
 .label.success {
     /* background-color: #46a546; */
