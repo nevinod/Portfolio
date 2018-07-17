@@ -12,7 +12,6 @@
 #top-header-box {
   display: flex;
   flex-direction: row;
-  /* background-color: #85929E; */
   background-color: #E7E2E2;
 
   width: 1040px;
@@ -28,7 +27,6 @@
 
 #name {
   font-size: 75px;
-  /* background-color: #85929E; */
   background-color: #E7E2E2;
   color: black;
   width: auto;
@@ -50,7 +48,6 @@
   flex-direction: row;
   width: 1000px;
   margin: auto;
-  /* background-color: #85929E; */
   background-color: #E7E2E2;
   padding-left: 35px;
   padding-right: 35px;
